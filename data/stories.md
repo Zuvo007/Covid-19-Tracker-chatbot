@@ -102,9 +102,6 @@
 * states_name
   - action_condition
 
-## Bore path
-
-
 ## Update path
 
 * states_name
