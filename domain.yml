@@ -1,0 +1,55 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - chill
+  - information
+  - curiosity
+  - places
+  - states_name
+  - report
+
+actions:
+  - action_inform
+  - action_location
+  - action_update
+  - action_condition
+  
+
+entities:
+  - location
+  - state
+
+
+responses:
+  utter_greet:
+  - text: "Hello How are you?"
+
+  utter_cheer_up:
+  - text: "I have a very Interesting meme sharing with you"
+    image: "https://twitter.com/RVCJ_FB/status/996803090337681409/photo/1"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great! do you need any information from me?"
+
+  utter_goodbye:
+  - text: "Happy to help you,please stay safe!Bye"
+  
+
+  utter_iamabot:
+  - text: "I am Zu,How can I help you?"
+
+
+  utter_yo:
+    - text: "yo bro whatsapp nigg!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
